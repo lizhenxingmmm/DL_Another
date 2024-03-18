@@ -128,7 +128,7 @@ void Yaw_angle_task(void const *pvParameters)
   {
 		Yaw_loop_init();
 		Yaw_read_imu();
-		diy_control();
+		//diy_control();
 		//ģʽ�ж�,���Ͻǿ��ؿ������·�
 			Yaw_angle_mode_2();
 		if((rc_ctrl.rc.s[1] == 3||rc_ctrl.rc.s[1] == 2||press_right)&&recv.cheak)
